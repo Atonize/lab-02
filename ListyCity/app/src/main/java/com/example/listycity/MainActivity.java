@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-                parent.setSelection((int)id);
                 selectedCity = cities.get((int)id);
             }
         });
